@@ -68,7 +68,7 @@ This prompt can be easily customized to adapt to the specific needs of different
 The system generates two main elements:
 
 ### 1. Financial Data Table
-![P&L financial data table](img/report_data.png)
+![P&L financial data table](img/report_analysis.png)
 
 This table shows:
 - Financial results by category
