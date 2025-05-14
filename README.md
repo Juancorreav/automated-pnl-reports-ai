@@ -4,7 +4,7 @@ This project demonstrates how to automate Profit & Loss (P&L) financial report a
 
 ![Example of generated report](img/report_analysis.png)
 
-## 📋 Project Context
+## Project Context
 
 This project uses real financial data from **Demo Company Ltd**, a fictional technology consulting firm dedicated to software development and integration services for enterprise clients. While the data structure and analysis flow are real, specific financial values have been modified to maintain confidentiality.
 
@@ -22,7 +22,7 @@ The main data used comes from the following tables:
 
 ![Data transformation flow](img/transformation_flow.png)
 
-## 🚀 Key Features
+## Key Features
 
 - **Complete automation** of financial analysis, from data extraction to report generation
 - **Detailed analysis** of trends, significant changes, and important transactions
@@ -31,7 +31,7 @@ The main data used comes from the following tables:
 - **Historical storage** of reports in BigQuery for tracking over time
 - **Daily updates** through scheduled workflows to ensure information is always current
 
-## 🔍 The Analysis Process
+## The Analysis Process
 
 The system performs the following analysis steps to generate valuable insights:
 
@@ -46,7 +46,7 @@ The system performs the following analysis steps to generate valuable insights:
 7. **Generative AI analysis**: Generation of comments and recommendations based on processed data
 8. **Results storage**: Saving the complete report in BigQuery for historical reference
 
-## 🧠 Generative AI Integration
+## Generative AI Integration
 
 The heart of the system is the integration with **Google Vertex AI (Gemini)** which:
 
@@ -63,7 +63,7 @@ The prompt used for generating the analysis is carefully designed to:
 
 This prompt can be easily customized to adapt to the specific needs of different teams or departments.
 
-## 📊 Example Output
+## Example Output
 
 The system generates two main elements:
 
@@ -85,7 +85,7 @@ The analysis includes:
 - Observations on overhead expenses
 - Actionable recommendations
 
-## 🔄 Workflow Automation
+## Workflow Automation
 
 The system is fully automated to run daily through:
 
@@ -96,7 +96,7 @@ The system is fully automated to run daily through:
 
 This automation ensures that financial teams and executives always have access to updated information and relevant analysis without manual intervention.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Google BigQuery**: For storage and querying of financial data
 - **Google Vertex AI (Gemini)**: For generating analysis and natural language interpretations
@@ -106,7 +106,7 @@ This automation ensures that financial teams and executives always have access t
 - **Cloud Scheduler**: For automating daily execution
 - **Vertex AI Workbench**: For automatic notebook execution
 
-## 🔧 Setup and Usage
+## Setup and Usage
 
 ### Prerequisites
 
@@ -147,7 +147,7 @@ To adapt this project to your needs:
 - Update the HTML generation in `generate_report_html` to change the report layout
 - Customize the final report format according to your organization's requirements
 
-## 💡 Business Value
+## Business Value
 
 This system provides several key benefits for any organization:
 
@@ -157,7 +157,7 @@ This system provides several key benefits for any organization:
 - **Improved decision making**: Provides data-driven recommendations to optimize financial management
 - **Complete history**: Maintains a record of all financial reports and analyses for future reference
 
-## 🔮 Future Developments
+## Future Developments
 
 The project has potential to expand in several directions:
 
@@ -176,13 +176,4 @@ Create an interactive dashboard that allows users to explore financial data and 
 ### 5. Budget Planning Integration
 Connect the system with budget planning tools to automatically compare actual results vs. budgeted and generate variance analyses.
 
-## 🤝 Contributions
 
-Contributions are welcome! If you have ideas to improve this project, feel free to:
-1. Fork the repository
-2. Create a new branch for your feature
-3. Submit a pull request
-
----
-
-For more information or to report issues, please open an issue in this repository.
