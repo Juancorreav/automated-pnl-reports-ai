@@ -1,0 +1,38 @@
+# Procesamiento de PDFs y reportes
+pdfkit>=1.0.0
+reportlab>=4.0.0
+
+# Google Cloud Platform - Core
+google-cloud-storage>=2.19.0
+google-cloud-bigquery>=3.31.0
+google-cloud-bigquery-storage>=2.31.0
+google-cloud-aiplatform>=1.92.0
+google-auth>=2.38.0
+
+# LangChain Framework para IA
+langchain>=0.3.25
+langchain-community>=0.3.24
+langchain-google-vertexai>=2.0.23
+
+# Procesamiento de datos
+pandas>=2.2.0
+pyarrow>=19.0.0
+numpy>=2.0.0
+
+# Tipos de datos especializados para BigQuery
+db-dtypes>=1.4.0
+
+# Visualización (usado en matplotlib.pyplot)
+matplotlib>=3.5.0
+
+# Librerías estándar de Python que pueden necesitar versiones específicas
+python-dateutil>=2.8.0
+
+# Para notebooks de Jupyter (si planeas usarlo localmente)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+IPython>=8.0.0
+
+# Dependencias adicionales que podrían ser útiles
+requests>=2.32.0
+urllib3>=2.4.0
